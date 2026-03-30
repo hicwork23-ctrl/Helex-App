@@ -3,7 +3,7 @@ import pandas as pd
 
 # 1. Connect to your Google Sheet
 # Replace the link below with YOUR Google Sheet link from Step 1
-sheet_url = https://docs.google.com/spreadsheets/d/1hFgrHo384KTls5wnJUE17CW3eAY3TH79ZFmTHY-Cagc/edit?usp=sharing
+"https://docs.google.com/spreadsheets/d/1hFgrHo384KTls5wnJUE17CW3eAY3TH79ZFmTHY-Cagc/edit?usp=sharing"
 url_fixed = sheet_url.replace('/edit?usp=sharing', '/gviz/tq?tqx=out:csv')
 
 st.title("🚛 Helex Fleet Manager")

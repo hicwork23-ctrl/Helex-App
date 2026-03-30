@@ -4,7 +4,8 @@ import pandas as pd
 # 1. Your Google Sheet Link
 sheet_url = "https://docs.google.com/spreadsheets/d/1hFgrHo384KTls5wnJUE17CW3eAY3TH79ZFmTHY-Cagc/edit?usp=sharing"
 # 2. Fix the link for the app to read it
-url_fixed = sheet_url.replace('/edit?usp=sharing', '/gviz/tq?tqx=out:csv')
+# Replace your old Line 7 with this exact line:
+url_fixed = sheet_url.replace('/edit?usp=sharing', '/export?format=csv&cachebust=1')
 
 st.title("🚛 Helex Fleet Manager")
 
